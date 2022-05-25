@@ -5,6 +5,9 @@ A python client for the Gemini API and Websocket
 ### Installation
 ```python
 pip install gemini_python
+pip uninstall websocket
+pip install websocket-client
+
 ```
 ### PublicClient
 This endpoint doesn't require an api-key and can
