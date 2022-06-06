@@ -6,6 +6,8 @@ A python client for the Gemini API and Websocket
 ```python
 pip install gemini_python
 ```
+Possibly: `pip install websocket-client==0.44.0`
+
 ### PublicClient
 This endpoint doesn't require an api-key and can
 be used without having a Gemini account. This README
