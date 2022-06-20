@@ -9,6 +9,8 @@ pip uninstall websocket
 pip install websocket-client
 
 ```
+Possibly: `pip install websocket-client==0.44.0`
+
 ### PublicClient
 This endpoint doesn't require an api-key and can
 be used without having a Gemini account. This README
