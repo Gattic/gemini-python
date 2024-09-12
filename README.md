@@ -3,8 +3,20 @@ A python client for the Gemini API and Websocket
 
 ## Getting Started
 ### Installation
+From Package
 ```python
-pip install gemini_python
+pip3 install gemini_python
+```
+From Source
+```python
+pip3 install .
+```
+Then:
+```python
+pip3 uninstall websocket
+pip3 uninstall websocket-client
+pip3 install websocket-client
+
 ```
 Possibly: `pip install websocket-client==0.44.0`
 
